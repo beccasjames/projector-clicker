@@ -36,10 +36,12 @@ class ViewController: UIViewController {
     
     @IBAction func upSelect(_ sender: UIButton) {
         self.projector?.volumeUp()
+        print("volume has been turned up")
     }
         
     @IBAction func downSelect(_ sender: UIButton) {
         self.projector?.volumeDown()
+        print("volume has been turned down")
     }
     
     @IBAction func muteSelect(_ sender: UIButton) {
